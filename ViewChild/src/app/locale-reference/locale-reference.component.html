@@ -1,0 +1,17 @@
+<div>
+    <label for="name">Name</label>
+    <input type="text" #name>
+</div>
+
+<div>
+    <label for="place">Place</label>
+    <input type="text" #place>
+</div>
+
+<div>
+    <button (click)= "getData()">Display</button>
+</div>
+
+
+<div>{{name.value}}</div>
+<div>{{place.value}}</div>
